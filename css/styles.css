@@ -142,7 +142,6 @@ ol {
   cursor: pointer;
   background: #4d5ae5;
   margin: 0 auto;
-  m
 }
 
 .tittle-button:hover {
@@ -156,15 +155,25 @@ ol {
 /** ====section2===== */
 
 .opportunity {
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 .opportunity-list {
+  display: flex;
+  gap: 24px;
 }
+.size {
+  width: calc((100% - 72px) / 4);
+}
+
 .opportunity-list-tittle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  display: flex;
+  margin-bottom: 8px;
 }
 .opportunity-list-text {
   color: var(--SLATE, #434455);
@@ -172,12 +181,14 @@ ol {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
+  display: flex;
 }
 
 /** ====section3===== */
 
 .about {
   background: var(--CLOUD, #f4f4fd);
+  padding: 120px 0;
 }
 .about-heder {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -187,8 +198,21 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
+
+.guest {
+  padding: 32px 0;
+  border-radius: 0px 0px 4px 4px;
+  background: var(--WHITE, #fff);
+  box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08),
+    0px 1px 1px 0px rgba(46, 47, 66, 0.16),
+    0px 1px 6px 0px rgba(46, 47, 66, 0.08);
+}
+
 .about-list {
+  display: flex;
+  gap: 24px;
 }
 .about-list-item {
   background-color: #ffffff;
@@ -200,6 +224,7 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .about-list-text {
   color: var(--SLATE, #434455);
@@ -213,6 +238,7 @@ ol {
 /** ====section4===== */
 
 .portfolio {
+  padding: 120px 0;
 }
 .portfolio-heder {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -222,17 +248,30 @@ ol {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
+  grid-column: 24px;
 }
 .portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
 .portfolio-list-item {
 }
+
+.work {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio-list-tittle {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .portfolio-list-text {
   color: var(--SLATE, #434455);
@@ -246,6 +285,8 @@ ol {
 
 .footer {
   background: var(--NAVY-BLUE, #2e2f42);
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo-footer {
   color: #4d5ae5;
@@ -266,4 +307,6 @@ ol {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.32px;
+  max-width: 264px;
+  margin-top: 17px;
 }
