@@ -21,6 +21,9 @@ h5,
 h6 {
   margin: 0;
 }
+img {
+  display: block;
+}
 
 ul,
 ol {
@@ -36,6 +39,10 @@ ol {
 
 /** ====Header===== */
 
+.header {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .header-nav-logo {
   color: var(--NAVY-BLUE, #4d5ae5);
   font-family: "Raleway", sans-serif;
@@ -46,6 +53,7 @@ ol {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   display: flex;
+  margin-right: 76px;
 }
 .header-nav-logo span {
   color: #2e2f42;
@@ -110,7 +118,7 @@ ol {
 .tittle {
   background: var(--NAVY-BLUE, #2e2f42);
   padding-top: 188px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 .tittle-name {
   color: var(--WHITE, #fff);
@@ -121,7 +129,7 @@ ol {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   margin-right: 0;
   margin: 0 auto;
   margin-bottom: 48px;
@@ -216,6 +224,7 @@ ol {
 }
 .about-list-item {
   background-color: #ffffff;
+  border-radius: 0px 0px 4px 4px;
 }
 .about-subtittle {
   color: var(--NAVY-BLUE, #2e2f42);
