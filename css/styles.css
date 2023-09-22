@@ -41,6 +41,7 @@ ol {
 
 .header {
   border-bottom: 1px solid #e7e9fc;
+  padding: 24px 0;
 }
 
 .header-nav-logo {
@@ -305,6 +306,8 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .span-footer {
   color: #f4f4fd;
@@ -317,5 +320,4 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.32px;
   max-width: 264px;
-  margin-top: 17px;
 }
