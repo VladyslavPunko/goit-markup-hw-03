@@ -67,7 +67,6 @@ ol {
 .heder-list {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 .heder-list-item {
   padding: 24px 0;
@@ -77,6 +76,7 @@ ol {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .heder-list-link {
