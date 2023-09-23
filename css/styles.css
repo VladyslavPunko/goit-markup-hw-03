@@ -55,7 +55,6 @@ ol {
   text-transform: uppercase;
   display: flex;
   margin-right: 76px;
-  padding: 24px 0;
 }
 .header-nav-logo span {
   color: #2e2f42;
@@ -77,6 +76,7 @@ ol {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
+  padding: 24px 0;
 }
 
 .heder-list-link {
@@ -165,15 +165,27 @@ ol {
 /** ====section2===== */
 
 .opportunity {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding: 120px 0;
 }
 .opportunity-list {
   display: flex;
   gap: 24px;
 }
+
 .size {
   width: calc((100% - 72px) / 4);
+}
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .opportunity-list-tittle {
