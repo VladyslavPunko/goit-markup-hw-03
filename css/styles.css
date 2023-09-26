@@ -52,7 +52,6 @@ ol {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  display: flex;
   margin-right: 76px;
 }
 .header-nav-logo span {
@@ -89,11 +88,11 @@ ol {
 
 .adress {
   font-style: normal;
+  margin-left: auto;
 }
 .adres-list {
   display: flex;
   gap: 40px;
-  margin-left: 332px;
   padding-left: 0;
   align-items: center;
 }
@@ -194,7 +193,6 @@ ol {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  display: flex;
   margin-bottom: 8px;
 }
 .opportunity-list-text {
@@ -203,7 +201,6 @@ ol {
   line-height: 1.5;
   font-weight: 400;
   letter-spacing: 0.02em;
-  display: flex;
 }
 
 /** ====section3===== */
