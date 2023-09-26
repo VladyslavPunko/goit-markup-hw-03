@@ -68,7 +68,7 @@ ol {
   gap: 40px;
 }
 .heder-list-item {
-  padding: 24px 0;
+  padding: 24px 0 24px;
 }
 .heder-list-link {
   color: #2e2f42;
